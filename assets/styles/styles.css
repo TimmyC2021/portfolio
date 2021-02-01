@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.flexcontainer {
+  display: flex;
+}
+
+body {
+  height: 95vh;
+  border: 1px solid red;
+}
+
+nav {
+  width: 100vw;
+  column-width: 100px;
+  background-color: teal;
+}
+nav div {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: teal;
+}
+nav div a {
+  text-decoration: none;
+  background-color: teal;
+}
+nav #nav__home {
+  width: 150px;
+}
+nav #nav__links_right {
+  justify-content: flex-end;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+}

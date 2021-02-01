@@ -1,0 +1,56 @@
+// Variables
+@import 'variables.scss';
+
+
+// Global
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $fonts;
+    font-size: $font_size_main;
+}
+
+.flexcontainer {
+    display: flex;
+}
+
+body {
+    height: 95vh;
+    border: 1px solid red;
+}
+
+// Nav bar
+
+nav {
+    width: 100vw;
+    column-width: 100px;
+    background-color: $background-color-navbar;
+
+    div {
+        width: 100px;
+        height: $nav_bar_height;
+        line-height: $nav_bar_height;
+        border: 1px solid black;
+        text-align: center;
+        background-color: $background-color-navbar;
+        a {
+            text-decoration: none;
+            background-color: $background-color-navbar;
+        }
+    }
+
+    #nav__home {
+        width: 150px;
+    }
+
+    #nav__links_right {
+        // width: 800px; // Needs to be automatic
+        justify-content: flex-end;
+    }
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
