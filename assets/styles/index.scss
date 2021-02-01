@@ -1,3 +1,32 @@
+@import './variables.scss';
+
 body {
     background-color: $background-color-home;
+    color: white;
+    //background-image: './assets/images/blog_paper_li_LinkedIn-banner-15-1024x256';
+
+    img {
+        background-position: left top;
+        //height: 100vh;
+        width: 100vw;
+    }
+    h1, h2 {
+        font-size: $font_size_large;
+        margin: 20px;
+        
+    }
+
+    h3 {
+        font-size: large;
+        margin: 20px;
+    }
+
+    #nav__home {
+        background-color: $background-color-home;
+
+        a {
+            background-color: $background-color-home;
+            color: black;
+        }
+    }
 }

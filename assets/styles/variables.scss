@@ -1,18 +1,35 @@
-    // Colours
-    $background-color-home: lightgrey;
-    $background-color-home-dark: grey;
+    // Variables
+
+    // Background colours
+    $background-color-home: rgb(177, 176, 176);
+    $background-color-home-dark: rgb(83, 83, 83);
+    
     $background-color-projects: lightgreen;
     $background-color-projects-dark: green;
-    $background-color-skills: lightblue;
+    
+    $background-color-skills: rgb(93, 159, 180);
     $background-color-skills-dark: blue;
+    
     $background-color-about-me: lightyellow;
     $background-color-about-me-dark: yellow;
-    $background-color-contact: rgba(168, 83, 83, 0.76);
-    $background-color-contact-dark: red;$background-color-navbar: rgb(59, 71, 71);
+    
+    $background-color-contact: rgb(241, 78, 78);
+    $background-color-contact-dark: red;
+    
+    // Navbar
+    $font-color-navbar: white;
+    $background-color-navbar: rgb(110, 182, 182);
+    $max-width-navbar: 1000px;
+
+    $nav_bar_height: 45px;
+
+    //Font colours
+    $font_color_light: white;
+    $font_colour_dark: black;
 
     // Typography
     $fonts: arial;
-    $font_size_main: 16px;
+    $font_size_main: 20px;
+    $font_size_large: xx-large;
 
     // Sizes
-    $nav_bar_height: 40px;

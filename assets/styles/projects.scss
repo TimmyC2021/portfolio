@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+body {
+    background-color: $background-color-projects;
+    
+    .nav__projects {
+        background-color: $background-color-projects;
+
+        a {
+            background-color: $background-color-projects;
+            color: black;
+        }
+    }
+}

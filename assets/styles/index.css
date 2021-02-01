@@ -1,0 +1,23 @@
+body {
+  background-color: #b1b0b0;
+  color: white;
+}
+body img {
+  background-position: left top;
+  width: 100vw;
+}
+body h1, body h2 {
+  font-size: xx-large;
+  margin: 20px;
+}
+body h3 {
+  font-size: large;
+  margin: 20px;
+}
+body #nav__home {
+  background-color: #b1b0b0;
+}
+body #nav__home a {
+  background-color: #b1b0b0;
+  color: black;
+}

@@ -1,0 +1,10 @@
+body {
+  background-color: lightyellow;
+}
+body .nav__about_me {
+  background-color: lightyellow;
+}
+body .nav__about_me a {
+  background-color: lightyellow;
+  color: black;
+}

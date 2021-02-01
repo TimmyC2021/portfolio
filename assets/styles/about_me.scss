@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+body {
+    background-color: $background-color-about-me;
+
+    .nav__about_me {
+        background-color: $background-color-about-me;
+
+        a {
+            background-color: $background-color-about-me;
+            color: black;
+        }
+    }
+}

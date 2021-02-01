@@ -16,36 +16,52 @@
 }
 
 body {
+
     height: 95vh;
-    border: 1px solid red;
+
+    // Debugging
+    // height: 200vh;          // Debugging only
+    // border: 1px solid red; // Debugging only
+    
 }
 
+header {
+    background-color: $background-color-navbar;
+}
 // Nav bar
 
 nav {
     width: 100vw;
+    max-width: $max-width-navbar;
+    margin: auto;
     column-width: 100px;
     background-color: $background-color-navbar;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 
     div {
         width: 100px;
         height: $nav_bar_height;
         line-height: $nav_bar_height;
-        border: 1px solid black;
+        // border: 1px solid black;
+        margin-left: 20px;
         text-align: center;
         background-color: $background-color-navbar;
         a {
             text-decoration: none;
+            color: $font-color-navbar;
             background-color: $background-color-navbar;
         }
     }
 
     #nav__home {
         width: 150px;
+        margin-left: 0;
     }
 
     #nav__links_right {
-        // width: 800px; // Needs to be automatic
+        width: 150vw;
         justify-content: flex-end;
     }
 }
@@ -53,4 +69,13 @@ nav {
 main {
     margin: auto;
     text-align: center;
+
+    .main__vertical_center {
+        margin-bottom: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -40%);
+        transform: translate(-50%, -40%);
+    }
 }

@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+body {
+    background-color: $background-color-skills;
+
+    .nav__skills {
+        background-color: $background-color-skills;
+
+        a {
+            background-color: $background-color-skills;
+            color: black;
+        }
+    }
+}

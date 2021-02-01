@@ -1,0 +1,10 @@
+body {
+  background-color: lightgreen;
+}
+body .nav__projects {
+  background-color: lightgreen;
+}
+body .nav__projects a {
+  background-color: lightgreen;
+  color: black;
+}
