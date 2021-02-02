@@ -21,12 +21,12 @@ body {
         margin: 20px;
     }
 
-    #nav__home {
+    .navbar__home {
         background-color: $background-color-home;
 
         a {
             background-color: $background-color-home;
-            color: black;
+            color: $font_colour_dark;
         }
     }
 }

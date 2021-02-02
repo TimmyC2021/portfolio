@@ -7,17 +7,17 @@ body img {
   width: 100vw;
 }
 body h1, body h2 {
-  font-size: xx-large;
+  font-size: 40px;
   margin: 20px;
 }
 body h3 {
   font-size: large;
   margin: 20px;
 }
-body #nav__home {
+body .navbar__home {
   background-color: #b1b0b0;
 }
-body #nav__home a {
+body .navbar__home a {
   background-color: #b1b0b0;
   color: black;
 }
