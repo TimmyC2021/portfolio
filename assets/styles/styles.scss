@@ -22,12 +22,12 @@ body {
     // Debugging
     // height: 200vh;          // Debugging only
     // border: 1px solid red; // Debugging only
-    
 }
 
 header {
     background-color: $background-color-navbar;
 }
+
 // Nav bar
 
 nav {
@@ -50,8 +50,7 @@ nav {
         background-color: $background-color-navbar;
         a {
             text-decoration: none;
-            color: $font-color-navbar;
-            background-color: $background-color-navbar;
+            color: $font-color-navbar-light;
         }
     }
 
@@ -63,6 +62,29 @@ nav {
     #nav__links_right {
         width: 150vw;
         justify-content: flex-end;
+    }
+
+    .nav__index:hover {
+        background-color: $background-color-home;
+    }
+    .nav__projects:hover {
+        background-color: $background-color-projects;
+    }
+    .nav__skills:hover {
+        background-color: $background-color-skills;
+    }
+    .nav__about_me:hover {
+        background-color: $background-color-about-me;
+        a {
+            color: black //$font_colour_dark;
+        }
+    }
+    .nav__contact:hover {
+        background-color: $background-color-contact;
+    }
+
+    .far, .fa_envelope {
+        width: 20px;
     }
 }
 
@@ -77,5 +99,19 @@ main {
         left: 50%;
         -ms-transform: translate(-50%, -40%);
         transform: translate(-50%, -40%);
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    //justify-content: space-between;
+    grid-template-columns: 33% 34% 33%;
+    div {
+        text-align: center;
+    }
+    div, div > a, div > span {
+        font-size: $font_size_small;
     }
 }

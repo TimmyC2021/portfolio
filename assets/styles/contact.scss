@@ -6,10 +6,7 @@ body {
     color: $font_color_light;
     //height: 95vh;
 
-    main {
-        
-    }
-
+    
     p, main a {
         font-size: $font_size_large;
         margin-bottom: 20px;
@@ -25,4 +22,6 @@ body {
             color: black;
         }
     }
+
+ 
 }

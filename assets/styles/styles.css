@@ -38,7 +38,6 @@ nav div {
 nav div a {
   text-decoration: none;
   color: white;
-  background-color: #6eb6b6;
 }
 nav #nav__home {
   width: 150px;
@@ -47,6 +46,27 @@ nav #nav__home {
 nav #nav__links_right {
   width: 150vw;
   justify-content: flex-end;
+}
+nav .nav__index:hover {
+  background-color: #b1b0b0;
+}
+nav .nav__projects:hover {
+  background-color: lightgreen;
+}
+nav .nav__skills:hover {
+  background-color: #5d9fb4;
+}
+nav .nav__about_me:hover {
+  background-color: lightyellow;
+}
+nav .nav__about_me:hover a {
+  color: black;
+}
+nav .nav__contact:hover {
+  background-color: #f14e4e;
+}
+nav .far, nav .fa_envelope {
+  width: 20px;
 }
 
 main {
@@ -60,4 +80,17 @@ main .main__vertical_center {
   left: 50%;
   -ms-transform: translate(-50%, -40%);
   transform: translate(-50%, -40%);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  grid-template-columns: 33% 34% 33%;
+}
+.footer div {
+  text-align: center;
+}
+.footer div, .footer div > a, .footer div > span {
+  font-size: 12px;
 }
