@@ -5,7 +5,7 @@
   font-size: 20px;
 }
 
-.flexcontainer {
+.l-flexcontainer {
   display: flex;
 }
 
@@ -17,9 +17,9 @@ header {
   background-color: #6eb6b6;
 }
 
-nav {
+.navbar {
   width: 100vw;
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
   column-width: 100px;
   background-color: #6eb6b6;
@@ -27,7 +27,7 @@ nav {
   top: 0;
   z-index: 1;
 }
-nav div {
+.navbar div {
   width: 100px;
   height: 45px;
   line-height: 45px;
@@ -35,37 +35,38 @@ nav div {
   text-align: center;
   background-color: #6eb6b6;
 }
-nav div a {
+.navbar div a {
   text-decoration: none;
   color: white;
 }
-nav #nav__home {
-  width: 150px;
+.navbar .navbar__home {
+  width: 100px;
   margin-left: 0;
+  flex-shrink: 0;
 }
-nav #nav__links_right {
-  width: 150vw;
-  justify-content: flex-end;
-}
-nav .nav__index:hover {
+.navbar .navbar__home:hover {
   background-color: #b1b0b0;
 }
-nav .nav__projects:hover {
+.navbar .navbar__links-right {
+  width: 100vw;
+  justify-content: flex-end;
+}
+.navbar .navbar__projects:hover {
   background-color: lightgreen;
 }
-nav .nav__skills:hover {
+.navbar .navbar__skills:hover {
   background-color: #5d9fb4;
 }
-nav .nav__about_me:hover {
+.navbar .navbar__about-me:hover {
   background-color: lightyellow;
 }
-nav .nav__about_me:hover a {
+.navbar .navbar__about-me:hover a {
   color: black;
 }
-nav .nav__contact:hover {
+.navbar .navbar__contact:hover {
   background-color: #f14e4e;
 }
-nav .far, nav .fa_envelope {
+.navbar .far, .navbar .fa_envelope {
   width: 20px;
 }
 
@@ -73,7 +74,7 @@ main {
   margin: auto;
   text-align: center;
 }
-main .main__vertical_center {
+main .l-vertical-center {
   margin-bottom: 0;
   position: absolute;
   top: 50%;
@@ -86,11 +87,12 @@ main .main__vertical_center {
   position: fixed;
   bottom: 0;
   width: 100vw;
-  grid-template-columns: 33% 34% 33%;
+  max-width: 900px;
+  justify-content: space-evenly;
 }
 .footer div {
-  text-align: center;
+  text-align: right;
 }
 .footer div, .footer div > a, .footer div > span {
-  font-size: 12px;
+  font-size: 14px;
 }

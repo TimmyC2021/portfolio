@@ -1,10 +1,10 @@
 body {
   background-color: lightgreen;
 }
-body .nav__projects {
+body .navbar__projects {
   background-color: lightgreen;
 }
-body .nav__projects a {
+body .navbar__projects a {
   background-color: lightgreen;
   color: black;
 }

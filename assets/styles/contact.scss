@@ -14,7 +14,7 @@ body {
         text-decoration: none;
     }
 
-    .nav__contact {
+    .navbar__contact {
         background-color: $background-color-contact;
 
         a {
@@ -23,5 +23,26 @@ body {
         }
     }
 
- 
+}
+
+i {
+    font-size: 3rem;
+}
+
+i:hover {
+    font-size: 4rem;
+
+}
+
+.l-contacts_grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    //border: 1px solid black;
+    div {
+        //border: 1px solid black;
+        text-align: center;
+        line-height: 100px;
+    }
+    
 }

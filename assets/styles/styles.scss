@@ -11,17 +11,12 @@
     font-size: $font_size_main;
 }
 
-.flexcontainer {
+.l-flexcontainer {
     display: flex;
 }
 
 body {
-
     height: 95vh;
-
-    // Debugging
-    // height: 200vh;          // Debugging only
-    // border: 1px solid red; // Debugging only
 }
 
 header {
@@ -30,7 +25,7 @@ header {
 
 // Nav bar
 
-nav {
+.navbar {
     width: 100vw;
     max-width: $max-width-navbar;
     margin: auto;
@@ -54,32 +49,32 @@ nav {
         }
     }
 
-    #nav__home {
-        width: 150px;
+    .navbar__home {
+        width: 100px;
         margin-left: 0;
+        flex-shrink: 0;
     }
-
-    #nav__links_right {
-        width: 150vw;
-        justify-content: flex-end;
-    }
-
-    .nav__index:hover {
+    .navbar__home:hover {
         background-color: $background-color-home;
     }
-    .nav__projects:hover {
+    
+    .navbar__links-right {
+        width: 100vw;
+        justify-content: flex-end;
+    }
+    .navbar__projects:hover {
         background-color: $background-color-projects;
     }
-    .nav__skills:hover {
+    .navbar__skills:hover {
         background-color: $background-color-skills;
     }
-    .nav__about_me:hover {
+    .navbar__about-me:hover {
         background-color: $background-color-about-me;
         a {
             color: black //$font_colour_dark;
         }
     }
-    .nav__contact:hover {
+    .navbar__contact:hover {
         background-color: $background-color-contact;
     }
 
@@ -92,7 +87,7 @@ main {
     margin: auto;
     text-align: center;
 
-    .main__vertical_center {
+    .l-vertical-center {
         margin-bottom: 0;
         position: absolute;
         top: 50%;
@@ -106,11 +101,13 @@ main {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    //justify-content: space-between;
-    grid-template-columns: 33% 34% 33%;
+    max-width: $max-width-navbar;
+    justify-content: space-evenly;
+    //grid-template-columns: 33% 34% 33%;
+    
     div {
-        text-align: center;
-    }
+        text-align: right;
+    } 
     div, div > a, div > span {
         font-size: $font_size_small;
     }
