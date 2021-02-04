@@ -8,3 +8,30 @@ body .navbar__skills a {
   background-color: #5d9fb4;
   color: black;
 }
+
+.skillsGrid {
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+div[class^=skillsGrid__skills] {
+  width: 200px;
+  height: 200px;
+  border: solid lightblue 5px;
+  border-radius: 3px;
+  box-shadow: 10px 10px blue;
+  line-height: 200px;
+  font-size: 30px;
+}
+div[class^=skillsGrid__skills] img {
+  width: 100px;
+}
+div[class^=skillsGrid__skills] :hover {
+  border-radius: 3px;
+  box-shadow: 10px 10px blue;
+}
+
+i {
+  font-size: 100px;
+}

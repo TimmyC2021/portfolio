@@ -1,15 +1,15 @@
 @import './variables.scss';
 
 body {
-    background-color: $background-color-home;
-    color: white;
-    //background-image: './assets/images/blog_paper_li_LinkedIn-banner-15-1024x256';
-
-    img {
+    //background-color: $background-color-home;
+    color: $font_color_light;
+    
+    
+    /*img {
         background-position: left top;
         //height: 100vh;
         width: 100vw;
-    }
+    }*/
     h1, h2 {
         font-size: $font_size_large;
         margin: 20px;
@@ -29,4 +29,15 @@ body {
             color: $font_colour_dark;
         }
     }
+}
+
+.background-image {
+        //background-image: 
+    
+        background-image: url("/assets/images/3d-digital-landscape-with-space-sky-nebula.jpg");
+        height: 100%;
+        background-size: cover;
+        opacity: 1;
+        background-position: center;
+        background-repeat: no-repeat;
 }

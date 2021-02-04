@@ -9,6 +9,10 @@
   display: flex;
 }
 
+.l-grid-container {
+  display: grid;
+}
+
 body {
   height: 95vh;
 }
@@ -45,14 +49,14 @@ header {
   flex-shrink: 0;
 }
 .navbar .navbar__home:hover {
-  background-color: #b1b0b0;
+  background-color: #b4dcdc;
 }
 .navbar .navbar__links-right {
   width: 100vw;
   justify-content: flex-end;
 }
 .navbar .navbar__projects:hover {
-  background-color: lightgreen;
+  background-color: #96fafa;
 }
 .navbar .navbar__skills:hover {
   background-color: #5d9fb4;
@@ -64,7 +68,7 @@ header {
   color: black;
 }
 .navbar .navbar__contact:hover {
-  background-color: #f14e4e;
+  background-color: white;
 }
 .navbar .far, .navbar .fa_envelope {
   width: 20px;

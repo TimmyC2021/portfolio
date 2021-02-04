@@ -2,8 +2,8 @@
 
 body {
     background-color: $background-color-about-me;
-
-    .navbar__about_me {
+    color: $font_color_light;
+    .navbar__about-me {
         background-color: $background-color-about-me;
 
         a {
@@ -11,4 +11,15 @@ body {
             color: $font_colour_dark;
         }
     }
+}
+
+.background-image {
+    //background-image: 
+
+    background-image: url("/assets/images/3d-digital-landscape-with-space-sky-nebula.jpg");
+    height: 100%;
+    background-size: cover;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
 }

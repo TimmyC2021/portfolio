@@ -1,10 +1,10 @@
 body {
-  background-color: lightgreen;
+  background-color: #96fafa;
 }
 body .navbar__projects {
-  background-color: lightgreen;
+  background-color: #96fafa;
 }
 body .navbar__projects a {
-  background-color: lightgreen;
+  background-color: #96fafa;
   color: black;
 }

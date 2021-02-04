@@ -33,3 +33,7 @@ i:hover {
   text-align: center;
   line-height: 100px;
 }
+
+.spacer {
+  height: 20vh;
+}
