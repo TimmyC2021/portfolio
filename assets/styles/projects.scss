@@ -8,7 +8,35 @@ body {
 
         a {
             background-color: $background-color-projects;
-            color: black;
+            color: $font_color_light;
+            //color: $font_colour_dark;
         }
+    }
+    color: $font_color_light;
+    //color: $font_colour_dark;
+}
+
+.projectGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px; 
+}
+
+div[class^="projectGrid__project"] {
+    width: 200px;
+    height: 400px;
+    border: solid lightblue 5px;
+    border-radius: 3px;
+    box-shadow: 10px 10px blue;
+    line-height: 200px;
+    font-size: 30px;
+    
+    img {
+        width: 100px;
+    }
+
+    :hover {
+        border-radius: 3px;
+        box-shadow: 10px 10px blue;
     }
 }

@@ -49,14 +49,14 @@ header {
   flex-shrink: 0;
 }
 .navbar .navbar__home:hover {
-  background-color: #b4dcdc;
+  background-color: #e9e9e9;
 }
 .navbar .navbar__links-right {
   width: 100vw;
   justify-content: flex-end;
 }
 .navbar .navbar__projects:hover {
-  background-color: #96fafa;
+  background-color: #375369;
 }
 .navbar .navbar__skills:hover {
   background-color: #5d9fb4;
@@ -68,7 +68,10 @@ header {
   color: black;
 }
 .navbar .navbar__contact:hover {
-  background-color: white;
+  background-color: #90786c;
+}
+.navbar .navbar__contact:hover a {
+  color: black;
 }
 .navbar .far, .navbar .fa_envelope {
   width: 20px;
@@ -77,6 +80,7 @@ header {
 main {
   margin: auto;
   text-align: center;
+  z-index: auto;
 }
 main .l-vertical-center {
   margin-bottom: 0;
@@ -91,6 +95,7 @@ main .l-vertical-center {
   position: fixed;
   bottom: 0;
   width: 100vw;
+  z-index: -1;
   max-width: 900px;
   justify-content: space-evenly;
 }

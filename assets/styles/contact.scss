@@ -3,14 +3,14 @@
 
 body {
     background-color: $background-color-contact;
-    color: $font_color_light;
+    //color: $font_color_light;
     //height: 95vh;
 
     
     p, main a {
         font-size: $font_size_large;
         margin-bottom: 20px;
-        color: $font_color_light;
+        color: $font_colour_dark;
         text-decoration: none;
     }
 

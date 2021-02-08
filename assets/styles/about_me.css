@@ -11,10 +11,33 @@ body .navbar__about-me a {
 }
 
 .background-image {
-  background-image: url("/assets/images/3d-digital-landscape-with-space-sky-nebula.jpg");
+  background-image: url("/assets/images/3d-digital-landscape-fictional-space-sky-background.jpg");
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.about {
+  width: 80vw;
+  min-width: 500px;
+  max-width: 800px;
+  text-align: left;
+}
+.about h1, .about p {
+  margin-bottom: 20px;
+}
+.about img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  line-height: 300px;
+}
+.about a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }

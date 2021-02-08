@@ -1,18 +1,17 @@
 body {
-  background-color: #f14e4e;
-  color: white;
+  background-color: #90786c;
 }
 body p, body main a {
   font-size: 40px;
   margin-bottom: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 body .navbar__contact {
-  background-color: #f14e4e;
+  background-color: #90786c;
 }
 body .navbar__contact a {
-  background-color: #f14e4e;
+  background-color: #90786c;
   color: black;
 }
 

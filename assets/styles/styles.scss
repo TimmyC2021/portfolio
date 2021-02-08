@@ -49,6 +49,7 @@ header {
         a {
             text-decoration: none;
             color: $font-color-navbar-light;
+            // border: 1px solid black;
         }
     }
 
@@ -74,11 +75,14 @@ header {
     .navbar__about-me:hover {
         background-color: $background-color-about-me;
         a {
-            color: black //$font_colour_dark;
+            color: $font_colour_dark;
         }
     }
     .navbar__contact:hover {
         background-color: $background-color-contact;
+        a {
+            color: $font_colour_dark;
+        }
     }
 
     .far, .fa_envelope {
@@ -89,6 +93,7 @@ header {
 main {
     margin: auto;
     text-align: center;
+    z-index: auto;
 
     .l-vertical-center {
         margin-bottom: 0;
@@ -104,6 +109,7 @@ main {
     position: fixed;
     bottom: 0;
     width: 100vw;
+    z-index: -1;
     max-width: $max-width-navbar;
     justify-content: space-evenly;
     //grid-template-columns: 33% 34% 33%;

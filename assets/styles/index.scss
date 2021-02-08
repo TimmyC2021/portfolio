@@ -1,8 +1,9 @@
 @import './variables.scss';
 
 body {
-    //background-color: $background-color-home;
+    background-color: $background-color-home;
     color: $font_color_light;
+    // color: $font_colour_dark;
     
     
     /*img {
@@ -31,12 +32,18 @@ body {
     }
 }
 
+.homemain {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
 .background-image {
         //background-image: 
     
         background-image: url("/assets/images/3d-digital-landscape-with-space-sky-nebula.jpg");
         height: 100%;
-        background-size: cover;
+        background-size: contain;
         opacity: 1;
         background-position: center;
         background-repeat: no-repeat;
